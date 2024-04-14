@@ -1,4 +1,4 @@
-<?php
+ <?php
 	require __DIR__ .'/connect.php';
 	session_start();
 	if(!isset($_SESSION['tasks'])){
